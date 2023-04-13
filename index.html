@@ -103,7 +103,7 @@
             Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la
             más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área
             urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad
-            consolidada que cubre toda la ciudad (aproximadamente 600km2 de superficie).
+            consolidada que cubre toda la ciudad (aproximadamente 600km<sup>2</sup> de superficie).
             <div><button class="text-bg-dark rounded border">Conoce más</button></div>
           </p>
         </div>
@@ -115,14 +115,22 @@
     <div class="container-fluid col-8 mb-4 ">
       <h2 class="text-center"><p class="fs-5 mb-0  text-secondary-emphasis">Conviértete en un</p> ORADOR</h2>
       <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
-        
-      <div class="row mb-1 justify-content-start">
-        <input type="text" name="nombre" id="" class=" col-12 col-md-6" placeholder="Nombre">
-        <input type="text" name="apellido" id="" class="col-12 col-md-6" placeholder="Apellido">
-      </div>
-        <textarea name="" id="" cols="30" rows="5" class="col-12">Sobre qué quieres hablar?</textarea>
-        Recuerda incluir un título para tu charla
-        <button class="bg-success col-12 p-2 text-white">Enviar</button>
+      <form>
+        <div class="row g-2">
+          <div class="col-sm-1 col-md-6 mb-3">
+            <input type="text" name="nombre" id="floatingInput" class="form-control" placeholder="Nombre">
+          </div>
+          <div class="col-sm-1 col-md-6 mb-3">
+            <input type="text" name="apellido" id="floatingInput" class="form-control" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-1 col-md-12">
+            <textarea name="" id="tema" rows="5" class="form-control" placeholder="Sobre qué quieres hablar?"></textarea>
+            <label for="tema" class="text-start">Recuerda incluir un título para tu charla</label>
+          </div>
+        </div>
+        <button class="enviar border border-0 col-12 p-2 text-white">Enviar</button>
       </form>
     </div>
   </main>

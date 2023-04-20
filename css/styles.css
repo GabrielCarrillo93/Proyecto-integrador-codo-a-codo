@@ -5,11 +5,17 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    min-height: 100vh;
+    min-height: 70vh;
     overflow-wrap:normal;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../img/ba1.jpg);
-    font-size: 0.8rem;
+    font-size: 1rem;
+}
+
+header div{
+    position: absolute;
+    right: 1rem;
+    bottom: 3rem;
 }
 
 
